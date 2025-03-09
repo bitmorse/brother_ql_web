@@ -108,7 +108,7 @@ Copy service file, reload system, enable and start the service
     systemctl enable brother_ql_web
     systemctl start brother_ql_web
 
-## Usage
+## Usage [Updated 9 March 2025]
 
 Once it's running, access the web interface by opening the page with your browser.
 If you run it on your local machine, go to <http://localhost:8013> (You can change
@@ -118,7 +118,7 @@ You will then be forwarded by default to the interactive web gui located at `/la
 All in all, the web server offers:
 
 * a Web GUI allowing you to print your labels at `/labeldesigner`,
-* an API at `/api/print/text?text=Your_Text&font_size=100&font_family=Minion%20Pro%20(%20Semibold%20)`
+* an API at `/api/print?text=Your_Text&font_size=100&font_family=Minion%20Pro%20(%20Semibold%20)`
   to print a label containing 'Your Text' with the specified font properties.
 
 ## Development
